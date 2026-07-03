@@ -26,6 +26,9 @@
       },
       "pro-salud": {
         "description": "Clon de la página web de Pro Salud, incluye el front-end, con un diseño responsivo y una experiencia de usuario fluida, paginas clonadas :inicio, servicios, contacto y trabajos. PD: /empleos no se muestra porque el servicio backend no está disponible en la nube"
+      },
+      "tico-gym": {
+        "description": "Proyecto personal de un gimnasio, para la administracion de clientes, entrenadores y rutinas de entrenamiento. Incluye el front-end y el back-end, con un diseño responsivo y una experiencia de usuario fluida."
       }
     }
   },
@@ -34,7 +37,8 @@
     "frontend": "Frontend",
     "backend": "Backend",
     "database": "Bases de Datos",
-    "orm": "ORM / Query"
+    "orm": "ORM / Query",
+    "auth": "Autenticación"
   },
   "footer": {
     "built": "Hecho con React + shadcn"

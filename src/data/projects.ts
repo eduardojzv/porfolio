@@ -2,7 +2,7 @@ export type TechTag =
   | 'React' | 'Next.js' | 'Shadcn' | 'Python'
   | 'FastAPI' | 'CSS' | 'NestJS' | 'Zustand'
   | 'Nuqs' | 'Tailwind' | 'MySQL' | 'PostgreSQL'
-  | 'Prisma' | 'Drizzle' | 'SQL Server' | 'TypeScript' | 'Vite'
+  | 'Prisma' | 'Drizzle' | 'SQL Server' | 'TypeScript' | 'Vite' | 'Clerk'
 
 export type Project = {
   id: string
@@ -39,6 +39,17 @@ export const projects: Project[] = [
     liveUrl: 'https://prosalud-clon.netlify.app',
     githubUrl: 'https://github.com/eduardojzv/proSalud',
     tags: ['React', 'Vite', 'CSS', 'FastAPI', 'MySQL'],
+  },
+  {
+    id: 'tico-gym',
+    title: 'Tico Gym',
+    descriptionKey: 'projects.items.tico-gym.description',
+    images: [
+      '/images/projects/tico-gym/home.webp',
+      '/images/projects/tico-gym/suscribe.webp',
+      '/images/projects/tico-gym/jobs.webp',
+    ],
+    tags: ['Next.js', 'Tailwind', 'PostgreSQL','Drizzle','Clerk'],
   }
 ]
 

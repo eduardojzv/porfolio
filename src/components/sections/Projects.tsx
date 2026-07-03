@@ -25,7 +25,7 @@ export function Projects() {
         />
       </div>
 
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6 sm:grid-cols-3 lg:grid-cols-2">
         {filtered.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}

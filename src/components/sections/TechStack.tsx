@@ -12,6 +12,8 @@ import {
   IconBrandMysql,
   IconBrandPrisma,
   IconBrandCss3,
+  IconBrandVite,
+  IconUserKey,
 } from '@tabler/icons-react'
 import { cn } from '@/lib/utils'
 
@@ -32,6 +34,7 @@ const stackCategories: { key: string; items: TechItem[] }[] = [
       { name: 'Shadcn', icon: IconCode },
       { name: 'Zustand', icon: IconCode },
       { name: 'Nuqs', icon: IconCode },
+      {name: 'Vite', icon: IconBrandVite },
     ],
   },
   {
@@ -55,6 +58,12 @@ const stackCategories: { key: string; items: TechItem[] }[] = [
     items: [
       { name: 'Prisma', icon: IconBrandPrisma },
       { name: 'Drizzle', icon: IconDatabase },
+    ],
+  },
+    {
+    key: 'stack.auth',
+    items: [
+      { name: 'Clerk', icon: IconUserKey },
     ],
   },
 ]

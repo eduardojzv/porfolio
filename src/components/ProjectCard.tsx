@@ -18,7 +18,7 @@ export function ProjectCard({ project }: Props) {
     <Card
       className={cn(
         'overflow-hidden border border-border bg-card py-0 ring-0',
-        'transition-shadow hover:shadow-[0_0_20px_var(--glow)]'
+        'transition-shadow hover:shadow-[0_0_20px_var(--glow)]',
       )}
     >
       <ProjectCarousel images={project.images} alt={project.title} />
