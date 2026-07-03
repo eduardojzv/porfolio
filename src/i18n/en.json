@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "stack": "Stack",
+    "language": "Language",
+    "theme": "Theme",
+    "lang_es": "Español",
+    "lang_en": "English"
+  },
+  "about": {
+    "greeting": "Hi, I'm",
+    "name": "Eduardo Josue",
+    "bio": "Full Stack Developer passionate about building digital products with clean, accessible, and high-performance experiences.",
+    "contact": "Contact"
+  },
+  "projects": {
+    "title": "Projects",
+    "filter_placeholder": "Filter by technology",
+    "live": "View project",
+    "github": "GitHub",
+    "all": "All",
+    "items": {
+      "hotel-fiesta": {
+        "description": "Clone of the Fiesta Hotel, includes the front-end, with a responsive design and a fluid user experience, cloned pages: home and the modal for rooms."
+      },
+      "pro-salud": {
+        "description": "Clone of the Pro Salud website, includes the front-end, with a responsive design and a fluid user experience, cloned pages: home, services, contact, and jobs. Note: /jobs is not displayed because the backend service is not available in the cloud."
+      }
+    }
+  },
+  "stack": {
+    "title": "My Stack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Databases",
+    "orm": "ORM / Query"
+  },
+  "footer": {
+    "built": "Built with React + shadcn"
+  }
+}

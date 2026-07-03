@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "stack": "Stack",
+    "language": "Idioma",
+    "theme": "Tema",
+    "lang_es": "Español",
+    "lang_en": "English"
+  },
+  "about": {
+    "greeting": "Hola, soy",
+    "name": "Eduardo Josue",
+    "bio": "Desarrollador Full Stack apasionado por construir productos digitales con experiencias limpias, accesibles y de alto rendimiento.",
+    "contact": "Contacto"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "filter_placeholder": "Filtrar por tecnología",
+    "live": "Ver proyecto",
+    "github": "GitHub",
+    "all": "Todas",
+    "items": {
+      "hotel-fiesta": {
+        "description": "Clon del hotel fiesta,incluye el front-end, con un diseño responsivo y una experiencia de usuario fluida, paginas clonadas :inicio y el modal para habitaciones."
+      },
+      "pro-salud": {
+        "description": "Clon de la página web de Pro Salud, incluye el front-end, con un diseño responsivo y una experiencia de usuario fluida, paginas clonadas :inicio, servicios, contacto y trabajos. PD: /empleos no se muestra porque el servicio backend no está disponible en la nube"
+      }
+    }
+  },
+  "stack": {
+    "title": "Mi Stack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Bases de Datos",
+    "orm": "ORM / Query"
+  },
+  "footer": {
+    "built": "Hecho con React + shadcn"
+  }
+}
